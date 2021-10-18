@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700" rel="stylesheet" />
+    <title>ДЗ 10.Отзывчивая верстка на Flexbox</title>
+</head>
+
+<body>
+    <div class="wraper">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                    <div class="header__logo">
+                        <a href="#"><img src="img/LOGO White.svg" alt="LOGO" /></a>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li class="header__item"><a href="#">Demos</a></li>
+                            <li class="header__item"><a href="#">Pages</a></li>
+                            <li class="header__item"><a href="#">Support</a></li>
+                            <li class="header__item"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="banner__container container">
+                <div class="banner__body">
+                    <h2 class="banner__title">Manage your team, faster!</h2>
+                    <p class="banner__text">Create custom landing pages with Berlin that convert more visitors than any
+                        website.</p>
+                    <a href="#" class="banner__button button">Start free 14 days trial</a>
+                    <p class="banner__info">No credit card required</p>
+                </div>
+            </div>
+        </div>
+        <div class="advantages">
+            <div class="advantages__container container">
+                <div class="advantages__body">
+                    <div class="advantages__column">
+                        <div class="advantages__item">
+                            <div class="advantages__icon"></div>
+                            <h4 class="advantages__title">Single Platform</h4>
+                            <div class="advantages__text">
+                                Create custom landing pages with Berlin that convert more
+                                visitors than any website.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantages__column">
+                        <div class="advantages__item">
+                            <div class="advantages__icon"></div>
+                            <h4 class="advantages__title">Faster Communication</h4>
+                            <div class="advantages__text">
+                                Create custom landing pages with Berlin that convert more
+                                visitors than any website.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantages__column">
+                        <div class="advantages__item">
+                            <div class="advantages__icon"></div>
+                            <h4 class="advantages__title">Everything in One Place</h4>
+                            <div class="advantages__text">
+                                Create custom landing pages with Berlin that convert more
+                                visitors than any website.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div class="analytics">
+            <div class="analytics__container container">
+                <div class="analytics__item content-block">
+                    <h3 class="content-block__title">Manage everything faster in single place.</h3>
+                    <p class="content-block__text">
+                        Create custom landing pages with Berlin that convert more visitors
+                        than any website. With lots of unique blocks, you can easily build
+                        a page without coding.
+                    </p>
+                    <a href="#" class="content-block__button button">Start free 14 days trial</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity__container container">
+                <div class="activity__item content-block">
+                    <h3 class="content-block__title">Build better team work faster and better!</h3>
+                    <p class="content-block__text">
+                        Create custom landing pages with Berlin that convert more visitors than
+                        any website. With lots of unique blocks, you can easily build a page
+                        without coding.
+                    </p>
+                    <a href="#" class="content-block__button button">Start free 14 days trial</a>
+                </div>
+            </div>
+        </div>
+        -->
+        <div class="analytics">
+            <div class="analytics__container container">
+                <div class="analytics__body">
+                    <div class="analytics__images">
+                        <img src="img/analytics/rate.jpg" alt="analytics-rate" />
+                        <img src="img/analytics/graphic.jpg" alt="analytics-graphic" />
+                    </div>
+                    <div class="analytics__item content-block">
+                        <h3 class="content-block__title title">Manage everything faster in single place.</h3>
+                        <p class="content-block__text text">
+                            Create custom landing pages with Berlin that convert more visitors
+                            than any website. With lots of unique blocks, you can easily build
+                            a page without coding.
+                        </p>
+                        <a href="#" class="content-block__button button">Start free 14 days trial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity__container container">
+                <div class="activity__body">
+                    <div class="activity__item content-block">
+                        <h3 class="content-block__title title">Build better team work faster and better!</h3>
+                        <p class="content-block__text text">
+                            Create custom landing pages with Berlin that convert more visitors
+                            than any website. With lots of unique blocks, you can easily build
+                            a page without coding.
+                        </p>
+                        <a href="#" class="content-block__button button">Start free 14 days trial</a>
+                    </div>
+                    <div class="activity__images">
+                        <img src="img/activity/image-1.jpg" alt="activity-rate" />
+                        <img src="img/activity/image-2.jpg" alt="activity-graphic" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="plan">
+            <div class="plan__container container">
+                <h3 class="plan__title title">Choose a plan to start</h3>
+                <p class="plan__text text">
+                    Wireframes are generally created by business analysts,
+                    user experience designers, developers, visual designers,
+                    and by those with expertise
+                </p>
+                <div class="plan__buttons">
+                    <a href="" class="plan__button">Monthly</a>
+                    <a href="" class="plan__button button-active">Yearly</a>
+                </div>
+            </div>
+        </div>
+        <div class="rate">
+            <div class="rate__container container">
+                <div class="rate__body">
+                    <div class="rate__item">
+                        <div class="rate__column">
+                            <h5 class="rate__name">BASIC</h5>
+                            <p class="rate__price">$19<span>/ month</span></p>
+                            <p class="rate__text">
+                                Good for small business launching their products
+                                less then once a year
+                            </p>
+                            <ul class="rate__list">
+                                <li class="rate__list-item">Unlimited Blocks</li>
+                                <li class="rate__list-item">5GB Clould Storages</li>
+                                <li class="rate__list-item">Custom Domain Names</li>
+                                <li class="rate__list-item">Unlimited Emails</li>
+                            </ul>
+                            <a href="#" class="rate__button button">Start free 14 days trial</a>
+                            <p class="rate__info">No credit card required</p>
+                        </div>
+                    </div>
+                    <div class="rate__item">
+                        <div class="rate__column rate-active">
+                            <h5 class="rate__name">PRO</h5>
+                            <p class="rate__price">$29<span>/ month</span></p>
+                            <p class="rate__text">
+                                Good for small business launching their products
+                                less then once a year
+                            </p>
+                            <ul class="rate__list">
+                                <li class="rate__list-item">Unlimited Blocks</li>
+                                <li class="rate__list-item">5GB Clould Storages</li>
+                                <li class="rate__list-item">Custom Domain Names</li>
+                                <li class="rate__list-item">Unlimited Emails</li>
+                            </ul>
+                            <a href="#" class="rate__button button">Start free 14 days trial</a>
+                            <p class="rate__info">No credit card required</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feedback">
+            <div class="feedback__container container">
+                <div class="feedback__body">
+                    <div class="feedback__item">
+                        <p class="feedback__text">
+                            “You made it so simple. My new site is so much faster
+                            and easier to work with than my old site. I just choose
+                            the page, make the change and click save.”
+                        </p>
+                        <div class="feedback__block">
+                            <p class="feedback__author">Cameron Anderson</p>
+                            <p class="feedback__source">From <a href="CrazyEggs.com">CrazyEggs.com</a></p>
+                        </div>
+                    </div>
+                    <div class="feedback__item">
+                        <p class="feedback__text">
+                            “Simply the best. Better than all the rest. I’d recommend
+                            this product to beginners and advanced users.”
+                        </p>
+                        <div class="feedback__block">
+                            <p class="feedback__author">Ellen Austin</p>
+                            <p class="feedback__source">From <a href="FashionGigs.net">FashionGigs.net</a></p>
+                        </div>
+                    </div>
+                    <div class="feedback__item">
+                        <p class="feedback__text">
+                            “This is a top quality product. No need to think twice before purchasing,
+                            you simply could not go wrong”
+                        </p>
+                        <div class="feedback__block">
+                            <p class="feedback__author">Cameron Anderson</p>
+                            <p class="feedback__source">From <a href="Albarston.com">Albarston.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__content">
+                    <ul class="footer__category">
+                        <li class="footer__category-item">
+                            <span>Store</span>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Catalog</a></li>
+                                <li class="footer__list-item"><a href="#">Popular</a></li>
+                                <li class="footer__list-item"><a href="#">Features</a></li>
+                                <li class="footer__list-item"><a href="#">F.a.q.</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__category-item">
+                            <span>About</span>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Catalog</a></li>
+                                <li class="footer__list-item"><a href="#">Popular</a></li>
+                                <li class="footer__list-item"><a href="#">Features</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__category-item">
+                            <span>Policy</span>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Catalog</a></li>
+                                <li class="footer__list-item"><a href="#">Popular</a></li>
+                                <li class="footer__list-item"><a href="#">Features</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__category-item">
+                            <span>Team</span>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Catalog</a></li>
+                                <li class="footer__list-item"><a href="#">Popular</a></li>
+                                <li class="footer__list-item"><a href="#">Features</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__category-item">
+                            <span>Support</span>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Catalog</a></li>
+                                <li class="footer__list-item"><a href="#">Popular</a></li>
+                                <li class="footer__list-item"><a href="#">Features</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__info">
+                    <p class="footer__copyright">© 2019 Grayic. All rights reserved</p>
+                    <ul class="footer__links">
+                        <li class="footer__items"><a href="#">Privacy Policy</a></li>
+                        <li class="footer__items"><a href="#">Terms & Conditions</a></li>
+                        <li class="footer__items"><a href="#">Site map</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

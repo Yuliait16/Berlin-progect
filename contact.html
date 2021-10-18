@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700" rel="stylesheet" />
+    <title>ДЗ 10.Отзывчивая верстка на Flexbox</title>
+</head>
+
+<body>
+    <div class="wraper">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                    <div class="header__logo">
+                        <a href="#"><img src="img/LOGO White.svg" alt="LOGO" /></a>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li class="header__item"><a href="#">Demos</a></li>
+                            <li class="header__item"><a href="#">Pages</a></li>
+                            <li class="header__item"><a href="#">Support</a></li>
+                            <li class="header__item"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="banner__container container">
+                <div class="banner__body">
+                    <h2 class="banner__title">Manage your team, faster!</h2>
+                    <p class="banner__text">Create custom landing pages with Berlin that convert more visitors than any
+                        website.</p>
+                    <a href="#" class="banner__button button">Start free 14 days trial</a>
+                    <p class="banner__info">No credit card required</p>
+                </div>
+            </div>
+        </div>
+        <div class="request">
+            <div class="request__container container">
+                <div class="request__top">
+                    <h4 class="request__subtitle">Manage your team in one place</h4>
+                    <div class="request__button button">Start free 14 days trial</div>
+                </div>
+                <div class="request__content">
+                    <h3 class="request__title">Please leave your request</h3>
+                    <form class="request__form form" action="#" name="form" method="post"
+                        enctype="multipart/form-data">
+                        <input type="text" name="username" value="" placeholder="First name" />
+                        <input type="text" name="lastname" value="" placeholder="Last name" />
+                        <input type="email" name="email" value="" placeholder="Email" />
+                        <input type="tel" name="phone" value="" placeholder="Phone" />
+                        <div class="request__file">
+                            <p class="request__attach">You can attach files or documents</p>
+                            <!--  <input type="file" name="file" /> -->
+                            <!-- Делается через input (строка выше) , но визуал меняется через JS -->
+                            <button class="request__attach-button" type="button"><span>Attach image</span></button>
+                        </div>
+                        <button class="request__button-submit" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__content">
+                    <ul class="footer__category">
+                        <li class="footer__category-item">
+                            <span>Store</span>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Catalog</a></li>
+                                <li class="footer__list-item"><a href="#">Popular</a></li>
+                                <li class="footer__list-item"><a href="#">Features</a></li>
+                                <li class="footer__list-item"><a href="#">F.a.q.</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__category-item">
+                            <span>About</span>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Catalog</a></li>
+                                <li class="footer__list-item"><a href="#">Popular</a></li>
+                                <li class="footer__list-item"><a href="#">Features</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__category-item">
+                            <span>Policy</span>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Catalog</a></li>
+                                <li class="footer__list-item"><a href="#">Popular</a></li>
+                                <li class="footer__list-item"><a href="#">Features</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__category-item">
+                            <span>Team</span>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Catalog</a></li>
+                                <li class="footer__list-item"><a href="#">Popular</a></li>
+                                <li class="footer__list-item"><a href="#">Features</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__category-item">
+                            <span>Support</span>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Catalog</a></li>
+                                <li class="footer__list-item"><a href="#">Popular</a></li>
+                                <li class="footer__list-item"><a href="#">Features</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__info">
+                    <p class="footer__copyright">© 2019 Grayic. All rights reserved</p>
+                    <ul class="footer__links">
+                        <li class="footer__items"><a href="#">Privacy Policy</a></li>
+                        <li class="footer__items"><a href="#">Terms & Conditions</a></li>
+                        <li class="footer__items"><a href="#">Site map</a></li>
+                    </ul>
+                   <!-- <ul class="footer__contacts">
+                        <li class="footer__contact">
+                            <a href="" class="footer__contact-icon">
+                                <img src="img/footer/twitter.svg" alt="twitter" />
+                            </a>
+                        </li>
+                        <li class="footer__contact">
+                            <a href="" class="footer__contact-icon">
+                                <img src="img/footer/facebook.png" alt="twitter" />
+                            </a>
+                        </li>
+                        <li class="footer__contact">
+                            <a href="" class="footer__contact-icon">
+                                <img src="img/footer/google.svg" alt="twitter" />
+                            </a>
+                        </li>
+                    </ul>
+                    -->
+                </div>
+            </div>
+        </footer>
+
+   
+        
+    </div>
+</body>
+
+</html>
