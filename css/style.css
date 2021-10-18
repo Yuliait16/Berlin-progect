@@ -948,6 +948,7 @@
 .footer {
   background-color: #2d3851;
   padding: 60px 0px 41px 0px;
+  background: linear-gradient(315.06deg, #152649 5%, #4F525C 100%);
 }
 
 .footer a:hover {
@@ -1292,7 +1293,7 @@
 
 .request__attach-button span {
   padding-left: 18px;
-  background: url(/img/request/icon.svg) no-repeat left;
+  background: url(../img/request/icon.svg) no-repeat left;
 }
 
 .request__button-submit {

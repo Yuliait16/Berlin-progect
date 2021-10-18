@@ -710,6 +710,7 @@ $color_white: #ffffff;
 .footer {
     background-color: rgb(45, 56, 81);
     padding: 60px 0px 41px 0px;
+    background: linear-gradient(315.06deg, #152649 5%, #4F525C 100%);
     & a:hover {
         text-decoration: underline;
     }
@@ -928,7 +929,7 @@ $color_white: #ffffff;
         letter-spacing: -0.3px;
         span {
             padding-left: 18px;
-            background: url(/img/request/icon.svg) no-repeat left;
+            background: url(../img/request/icon.svg) no-repeat left;
         }
     }
     &__button-submit {
